@@ -25,9 +25,7 @@
 ---
 
 
-## <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=header&text=这是什么？&fontSize=40&fontAlign=50&fontAlignY=30" alt="header">
-</p>
+## 这是什么？
 
 **XUNet**（[CrossBasicUNet](cross_basic_unet.py)）是我基于monai实现的经典 U-Net 的扩展模型。其核心思想是通过跨层特征共享，将所有编码器层的特征整合到每一层解码器中，从而更充分地利用多尺度的特征信息。
 
