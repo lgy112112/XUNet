@@ -1,13 +1,23 @@
 # XUNet: UNet Cross Over Features
 
-![封面](images/cover.png)
 
+<div align="center">
+  <img src="images/cover.png" alt="封面图片" width="600">
+</div>
+
+
+
+<div align="center">
+  
 ![我好累](https://img.shields.io/badge/%E6%88%91%E5%A5%BD%E7%B4%AF-blue?style=for-the-badge&logo=github)
 ![我好饿](https://img.shields.io/badge/%E6%88%91%E5%A5%BD%E9%A5%BF-orange?style=for-the-badge&logo=fastapi)
 ![支持NMIXX](https://img.shields.io/badge/%E6%94%AF%E6%8C%81-NMIXX-ff69b4?style=for-the-badge&logo=musicbrainz)
 ![猫猫加油~](https://img.shields.io/badge/%E7%8C%AB%E7%8C%AB-%E5%8A%A0%E6%B2%B9%7E-yellow?style=for-the-badge&logo=python)
-
 [![投喂主播](https://img.shields.io/badge/%E6%8A%95%E5%96%82%E4%B8%BB%E6%92%AD-%E5%8D%95%E5%87%BB%E6%94%AF%E6%8C%81-9cf?style=for-the-badge&logo=alipay)](images/alipay-qrcode.png)
+
+</div>
+
+
 
 ---
 
