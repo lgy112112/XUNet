@@ -6,7 +6,7 @@
 
 
 <p align="center">
-  <img src="images/cover.png" alt="封面图片" width="600">
+  <img src="images/cover2.png" alt="封面图片" width="600">
 </p>
 
 <p align="center">
