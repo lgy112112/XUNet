@@ -1,17 +1,15 @@
-<div align="center">
+
+<p align="center">
 
 # XUNet: UNet Cross Over Features
 
-<div>
+<p>
 
-
-<div align="center">
+<p align="center">
   <img src="images/cover.png" alt="封面图片" width="600">
-</div>
+</p>
 
-
-
-<div align="center">
+<p align="center">
   
 ![我好累](https://img.shields.io/badge/%E6%88%91%E5%A5%BD%E7%B4%AF-blue?style=for-the-badge&logo=github)
 ![我好饿](https://img.shields.io/badge/%E6%88%91%E5%A5%BD%E9%A5%BF-orange?style=for-the-badge&logo=fastapi)
@@ -19,20 +17,17 @@
 ![猫猫加油~](https://img.shields.io/badge/%E7%8C%AB%E7%8C%AB-%E5%8A%A0%E6%B2%B9%7E-yellow?style=for-the-badge&logo=python)
 [![投喂主播](https://img.shields.io/badge/%E6%8A%95%E5%96%82%E4%B8%BB%E6%92%AD-%E5%8D%95%E5%87%BB%E6%94%AF%E6%8C%81-9cf?style=for-the-badge&logo=alipay)](images/alipay-qrcode.jpg)
 
-</div>
-
-
 ---
-
 
 ## 这是什么？
 
-**XUNet**（[CrossBasicUNet](cross_basic_unet.py)）是我基于monai实现的经典 U-Net 的扩展模型。其核心思想是通过跨层特征共享，将所有编码器层的特征整合到每一层解码器中，从而更充分地利用多尺度的特征信息。
+**XUNet**（[CrossBasicUNet](cross_basic_unet.py)）是我基于 MONAI 实现的经典 U-Net 的扩展模型。其核心思想是通过跨层特征共享，将所有编码器层的特征整合到每一层解码器中，从而更充分地利用多尺度的特征信息。
 
 XUNet 的主要改进体现在以下方面：
 1. **跨层特征共享**：与传统 U-Net 每层解码器只使用对应编码器特征不同，XUNet 在解码阶段融合了所有编码器层的特征。这一设计通过插值对齐不同分辨率的特征，使解码器具备更强的上下文感知能力。
 2. **模块化设计**：引入了 `UpCatAll` 模块，用于动态调整和拼接特征，为解码器提供全尺度的编码器特征支持。
 
+---
 
 ## 安装指南
 
@@ -94,8 +89,7 @@ XUNet 的主要改进体现在以下方面：
 
 ## 日后更新
 
-## 日后更新计划
-：
+### 日后更新计划
 
 - [ ] **优化共享特征的方式**  
   - 探索更加高效的特征融合策略（如注意力机制或特征加权）。  
@@ -105,7 +99,7 @@ XUNet 的主要改进体现在以下方面：
   - 引入轻量化模块（如深度可分离卷积或稀疏卷积）。  
   - 设计更高效的跳跃连接机制，在性能和参数量之间找到平衡点。
 
-
+---
 
 ## 支持与反馈
 
